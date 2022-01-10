@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>selectores 3</title>
+    <style>
+        h1{
+            color: salmon;
+        }
+        li {
+            color: slategrey;
+        }
+        li:hover {
+            color: springgreen;
+        }
+        div p:nth-child(2){
+            color: rgb(99, 71, 255);
+        }
+         li::first-letter{
+            color: papayawhip;
+        }
+        li::before{
+            content: "**";
+        }
+        li::after{
+            content: "@@@";
+        }
+        li::marker{
+            color: rgb(92, 255, 71);
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudoclases</h1>
+    <ul>
+        <li>:active
+            <p>lor</p>
+        </li>
+        <li>:focus</li>
+        <li>:hover</li>
+        <li>:nth-child</li>
+    </ul>
+    <h1>Pseudoelementos</h1>
+    <ul>
+        <li>::after</li>
+        <li>::before</li>
+        <li>::first-letter</li>
+        <li>::placeholder</li>
+
+    </ul>
+    <div>
+        <p>hola</p>
+        <p>mundo</p>
+        <p>esto es una practica</p>
+    </div>
+</body>
+</html>
