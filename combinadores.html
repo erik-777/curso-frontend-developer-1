@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinadores</title>
+    <style>
+        /*Combinadores decendientes*/
+        div p {
+            color: rgb(13, 14, 13);
+        }
+
+        /*Combinadores Hijo director*/
+        div>div {
+            background: plum;
+        }
+
+        /*Combinadores Adyacente*/
+        div + section{
+            background: peru;
+        }
+
+        /*Combinadores de hermanos*/
+        div ~ p {
+            color: rebeccapurple;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Ratione qui nostrum tenetur ipsa deserunt, repellendus nobis incidunt
+            quos porro soluta, labore perferendis at! Et, quasi atque neque perspiciatis voluptatibus culpa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, vel dolor, nisi ut iure eligendi laudantium
+            eaque voluptatem enim alias vitae consequuntur aut odio et error numquam illo minus corrupti?</p>
+    </div>
+
+    <div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex ullam voluptatibus voluptas saepe quia,
+                eaque neque assumenda temporibus ducimus perspiciatis aperiam, molestiae iste eos. Explicabo consectetur
+                similique cum sint ratione.</p>
+        </div>
+        <p>clase de selectores</p>
+        <p>clase de selectores</p>
+    </div>
+    <section>
+        es lo mejor
+    </section>
+    <div>
+        master
+    </div>
+    <div>
+       
+    </div>
+</body>
+
+</html>
