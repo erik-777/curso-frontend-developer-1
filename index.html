@@ -5,13 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /*Selector universal*/
+        *{
+            background: rgb(255, 71, 71);
+        }
+        /* selector de tipo*/
+        div{
+            background: rgb(0, 195, 255);
+        }
+        /* selector de clases*/
+        .titulo{
+            color: rgb(114, 250, 148);
+        }
+        /* selector de id*/
+        #parrafo{
+            color: seagreen;
+        }
+        /* selector de atributos*/
+        a[href="https://www.google.com/"]{
+            color: skyblue;
+        }
+    </style>
 </head>
 <body>
+    <header>
+
+    </header>
+    <nav>
+<ul></ul>
+    </nav>
     <section>
         <h1>
             Erik Vergara
         </h1>
-        <p>
+        <p id="parrafo">
             Tiene una comunidad
         </p>
         <ul>
@@ -19,5 +47,16 @@
             <li>increible</li>
         </ul>
     </section>
+    <section>
+        <h1>Selectores Css</h1>
+        <div>
+            <p>parrafo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem vero voluptatum recusandae optio voluptas. Maxime dolor numquam cumque porro magnam atque? Id molestiae impedit aliquam inventore quam ipsam aut blanditiis.</p>
+        </div>
+        <div class="titulo">mundo</div>
+        <a href="https://www.google.com/">ir a google</a>
+    </section>
+    <footer>
+        footer
+    </footer>
 </body>
 </html>
